@@ -1,0 +1,103 @@
+.container{
+    padding: 0;
+    margin: 0;
+    /* background:cyan; */
+    width:100%;
+    /* box-sizing: border-box; */
+}
+
+/* .container {
+    width:100%;
+    padding-right: 0;
+    padding-left: 0;
+    margin-right: auto;
+    margin-left: auto; } */
+
+.container h1{
+    margin-left:auto;
+}
+
+label{
+    font-size:13px;
+    /* background:green; */
+}
+
+.table-input{
+    /* background:green; */
+    margin-left:2px;
+    border-style:ridge;
+    border-radius: 10px;
+    padding:10px;
+}
+
+button{
+    background:cyan;
+    /* align-content: center; */
+    
+}
+
+#mult-table{
+    margin-top:20px;
+    width:174%;
+    height:450px;
+    /* background:yellow; */
+    /* overflow:scroll; */
+    overflow-y:scroll;
+    overflow-x:scroll;
+    border:0px;
+}
+
+table{
+    /* display: block;
+  height: 450px;
+  overflow-y: scroll; */
+}
+
+th{
+    padding:5px;
+    border:solid;
+}
+
+tr{
+    padding:10px;
+    /* background:green; */
+}
+
+/* tr:first-child th:first-child{
+    background:transparent;
+    text-indent:-999px;
+    border:0px;
+} */
+
+tr:nth-child(2n) th{
+    background:gray;
+}
+
+/* tr:nth-child(2n) th:first-child{
+    background-color:transparent;
+} */
+
+/* Top Row */
+tr:first-child th{
+    background:cyan;
+    position:sticky;
+    top:0;
+    /* padding:5px; */
+    /* margin-top:20px; */
+    /* width:174%; */
+    /* height:450px; */
+}
+
+tr th:first-child{
+    background:cyan;
+    position:sticky;
+    left:0;
+}
+
+/* First Block */
+tr:first-child th:first-child{
+    background-color:transparent;
+    text-indent:-999px;
+    /* font-size:200px; */
+    border:0px;
+}
